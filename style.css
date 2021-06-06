@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: black;
+  }
+  
+  img {
+    width: 20%;
+    margin: 10px;
+    
+  }
+  
+  main {
+    text-align: center;
+  }
+  
+  .input-section {
+    position: relative;
+    top: 100px;
+  }
+  
+  input {
+    width:40%;
+    height: 40px;
+    background-color: sandybrown;
+    border: 2px solid sandybrown;
+    border-radius: 5px;
+    text-align: center;
+    /* font-weight: bold; */
+  }
+  ::-webkit-input-placeholder,
+  :-ms-input-placeholder {
+    color: black;
+  }
+  
+  .btn {
+    position: relative;
+    top: 150px;
+  }
+  
+  #btn {
+    width: 50%;
+    height: 50px;
+    color: white;
+    background-color: forestgreen;
+    border:2px solid forestgreen;
+    border-radius: 10px;
+    font-size: 15pt;
+    font-family: monospace;
+    font-weight: bold;
+  }
+  
+  .percentage-result {
+    color: white;
+    position: relative;
+    top: 30px;
+  }
+  
+  #percentage-output {
+    width: 50%;
+    height: 80px;
+    line-height: 30px;
+    font-weight: bold;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  
+  .error-output {
+    color:darkred;
+    width:50%;
+    height: 80px;
+    /* line-height: 80px; */
+    font-size: 15px;
+    font-weight: bold;
+    
+  }
+  
+  .green {
+    color: springgreen;
+    font-size: 60px;
+  }
+  
+  .red {
+    color: darkred;
+    font-size: 60px;
+  }
+  
+  .sOHTSO {
+    color: darkred;
+  }
