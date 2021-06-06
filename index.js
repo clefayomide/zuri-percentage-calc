@@ -2,9 +2,9 @@ let scoreObtained = document.getElementById("score-obtained")
 let scoreObtainable = document.getElementById("score-obtainable")
 let btn = document.getElementById("btn")
 let percentageOutput = document.getElementById("percentage-output")
-// let errorOutput = document.getElementById("error-output")
 let errorMsg = "enter a valid number" 
 let inputOneGreaterThanInputTwo = "score obtained can not be higher than score obtainable"
+
 btn.addEventListener("click", () => {
     let inputOne = parseInt(scoreObtained.value)
     let inputTwo = parseInt(scoreObtainable.value)

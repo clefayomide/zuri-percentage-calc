@@ -30,7 +30,6 @@
     border: 2px solid sandybrown;
     border-radius: 5px;
     text-align: center;
-    /* font-weight: bold; */
   }
   ::-webkit-input-placeholder,
   :-ms-input-placeholder {
@@ -73,7 +72,6 @@
     color:darkred;
     width:50%;
     height: 80px;
-    /* line-height: 80px; */
     font-size: 15px;
     font-weight: bold;
     
